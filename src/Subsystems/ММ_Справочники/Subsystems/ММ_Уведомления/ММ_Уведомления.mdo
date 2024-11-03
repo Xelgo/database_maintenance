@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05737aca-f3b9-4eaa-bc20-bc4285d67e19">
+  <name>ММ_Уведомления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомления</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ММ_КаналыУведомлений</content>
+  <content>Catalog.ММ_ШаблоныСообщений</content>
+  <parentSubsystem>Subsystem.ММ_Справочники</parentSubsystem>
+</mdclass:Subsystem>

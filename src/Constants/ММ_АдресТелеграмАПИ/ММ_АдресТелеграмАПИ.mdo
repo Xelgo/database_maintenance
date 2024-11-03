@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db26f602-29fc-4a91-8902-999a64e3f6a1">
+  <producedTypes>
+    <managerType typeId="9b4df217-1b02-449c-a1aa-5c857034cac6" valueTypeId="bd282448-df86-4241-ae59-49ff91cff8ce"/>
+    <valueManagerType typeId="b2fe14a8-f6e5-4105-81ca-79731d0cd4d9" valueTypeId="9e3b3512-5e29-4ec6-92d5-a631cae89dba"/>
+    <valueKeyType typeId="b0f76e40-037d-406f-82b7-3305f005f58b" valueTypeId="e8f5a6bd-ad3c-4c51-a123-a83fa2c72733"/>
+  </producedTypes>
+  <name>ММ_АдресТелеграмАПИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Адрес телеграм АПИ</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>150</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ММ_ФормаНастроек</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

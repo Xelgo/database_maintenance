@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea317b79-9714-4f4f-8b8c-1023df973ecf">
+  <producedTypes>
+    <objectType typeId="f9e5c5b9-229f-4400-95cb-df15ac9b181c" valueTypeId="4fe45c22-88ea-4415-a7a1-77eb4ef08eb1"/>
+    <refType typeId="7a070b6d-1af2-464e-b4ac-fca950868f1f" valueTypeId="7fb97f5e-5649-40c6-90e8-f7c20d999c53"/>
+    <selectionType typeId="c1fe3af4-60ab-428c-94ea-543b14584a39" valueTypeId="8af464d9-b34d-4a0b-99a5-0ce1ae18a3ae"/>
+    <listType typeId="f185503e-8b1f-4576-8a91-32242b0f688d" valueTypeId="cf6a8908-8da7-4d9a-aa65-bd21a5c394a5"/>
+    <managerType typeId="51964e15-8a34-4215-976a-5cb4a999fb6b" valueTypeId="e1060690-00b8-4b2e-be21-333f0b3244c9"/>
+  </producedTypes>
+  <name>ММ_ПланированиеТехнологическихРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование технологических работ(Обновление\обслуживание базы)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ММ_ПланированиеТехнологическихРабот.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Планируемые работы(Обновление\обслуживание базы)</value>
+  </objectPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ММ_ПланированиеТехнологическихРабот.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="fe9c8b8a-984b-426e-b27e-358b08699d9b">
+    <name>ДатаНачалаРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала работ</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9b4df31d-d426-42cb-8d7f-760b039a04db">
+    <name>ДатаОкончанияРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания работ</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="404991d3-3de5-4cb4-b3a3-02f7f3136702">
+    <name>ПланируемаяРабота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планируемая работа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ММ_ПланируемыеВидыРабот</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7f88e0ee-cc5e-4d49-9ede-08577f042d71">
+    <name>ОбновляемаяБаза</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновляемая база</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ММ_БазаДанных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="23f6fbbd-db36-4ebd-82c2-ea3abd1d166d">
+    <name>УведомитьПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомить пользователей</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a7af67b4-85ad-4891-91f7-b8fc07cfb03d">
+    <name>АвтоматизацияОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматизация обновления</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1360d201-5fb6-4f80-8ad5-73fec6f992c6">
+    <name>ШаблонУведомления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон уведомления</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ММ_ШаблоныСообщений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b98b5ada-00d9-43c4-8b66-f7823ab199fa">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ffe6ae7f-1104-4342-9b3f-6f24e6e4c19f">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="60b5b0aa-8fb8-4c4a-97c5-8857fdb06d7a">
+    <name>ОбновлятьБазу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновлять базу</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="39579501-471b-4861-83fc-1ee5f3788b3c">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="ed471c9e-5fa8-4957-96d4-f2ac4867ac42">
+    <producedTypes>
+      <objectType typeId="e3ef1522-cb17-41ff-9b8e-3ef7caed20f5" valueTypeId="db4c04c9-eff0-437a-afc4-991820365037"/>
+      <rowType typeId="f4df3fb1-757e-4020-9a17-24df2eb96230" valueTypeId="e056960b-a5df-44af-a5ed-fcdcb20e69f8"/>
+    </producedTypes>
+    <name>СписокОбновляемыхРасширений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список обновляемых расширений</value>
+    </synonym>
+    <attributes uuid="cb969403-a5e7-474c-ba1a-069a9d95a6cb">
+      <name>Расширение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Расширение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ММ_Расширения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d3527248-7b7a-4798-8dfa-796b14484d84">
+      <name>Обновлять</name>
+      <synonym>
+        <key>ru</key>
+        <value>Обновлять</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="42b64b3d-636e-4d5c-85b8-514ffbef769b">
+      <name>СпособОбновления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Способ обновления</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ММ_СпособыОбновления</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

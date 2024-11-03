@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85432223-eb08-4e4d-b813-a0a36a0ce3a0">
+  <producedTypes>
+    <refType typeId="f22a0a27-fd83-49f6-b560-6bd5f0e9c986" valueTypeId="d76083a7-82cc-42f1-b1c0-2c3b2edb09ab"/>
+    <listType typeId="899b49d9-9777-495b-a01f-6e075a8358c9" valueTypeId="16fd7e41-f104-4dd6-bcce-bb5fe997da90"/>
+    <managerType typeId="3239c846-e34b-4a52-92b6-652fc5524363" valueTypeId="327371fa-ce8c-4702-8df0-db531b0a094e"/>
+  </producedTypes>
+  <name>ММ_ВидыАвтоматическихОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды автоматических операций</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="52175767-2398-4253-80fd-ed83f97f1626">
+    <name>РассылкаНаПочту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассылка на почту</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="da1af1ab-e532-45a4-aba6-65b682b11f93">
+    <name>РассылкаТелеграмм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассылка телеграмм</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="da6e28d6-cf89-41a1-b0d9-042700da0792">
+    <name>ЗапретНаЗапуск1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрет на запуск 1С</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f930ea0e-d669-4625-bcef-e1054a253985">
+    <name>ЗапретРегламентныхЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрет регламентных заданий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9e9493b4-bb27-4cb2-9c0d-ec8440b41368">
+    <name>ЗавершениеСеансовПользователей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершение сеансов пользователей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e58efde5-5d78-4456-afb1-1b6545703534">
+    <name>ОбновлениеРасширения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление расширения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bb7eef58-5469-4a47-8007-7e7524c27369">
+    <name>ОбновлениеБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление базы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0d6aba55-630f-4cdd-8a9e-1a989fc444a1">
+    <name>РазрешениеНаЗапуск1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешение на запуск 1с</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="806450cd-f291-4bd8-8771-8dfb7c36fc4e">
+    <name>РазрешениеРегламентныхЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешение регламентных заданий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a5bcbbd6-5bc4-439e-b4d3-eb96109dac03">
+    <name>УведомлениеОДоступностиБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление о доступности базы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

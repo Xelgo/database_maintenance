@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6cfdea6e-b34d-44b1-bb62-2bde6f9f2047">
+  <producedTypes>
+    <objectType typeId="ab600f7c-5adb-4869-a0ad-0928656bafc9" valueTypeId="cc8f3e8c-a204-4649-a80d-18f0948fd96d"/>
+    <refType typeId="465cdcd1-8218-4580-88dd-2594eee61b59" valueTypeId="4d70ef8e-f8e4-4aff-a8d2-adba4c2671a1"/>
+    <selectionType typeId="e11aef49-c77b-45fb-834b-645e83d37a82" valueTypeId="409dc929-2109-491c-9f70-bd6c029f7af8"/>
+    <listType typeId="146910fa-4c6a-4318-a786-e3ceb25bb58e" valueTypeId="c9753fee-6f50-4cbb-8ab4-51252049b2b9"/>
+    <managerType typeId="9313832e-c018-4aae-9d98-7f82964f2865" valueTypeId="d920980d-03a2-42f9-a529-5031cb551c3a"/>
+  </producedTypes>
+  <name>ММ_ДействияВХодеОбслуживания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Действия в ходе обслуживания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ММ_ДействияВХодеОбслуживания.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ММ_ДействияВХодеОбслуживания.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Действие в ходе обслуживания</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="d55b9c55-760c-410a-9bad-c9ee78c634e2">
+      <name>УведомлениеНаПочту</name>
+      <description>Уведомление на почту</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="1b67f2f8-034a-41fe-ad33-260ba1f7e73a">
+      <name>УведомлениеТелеграм</name>
+      <description>Уведомление телеграм</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="9fa4fc84-4b15-4d71-bc1a-74a7e6d8d7fc">
+      <name>ЗапретРегламентныхЗаданий</name>
+      <description>Запрет регламентных заданий</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="1e6c2e52-e5a0-4296-a1ec-d9832ef2cb04">
+      <name>ЗапретЗапускаБазы</name>
+      <description>Запрет запуска базы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="e09d43f9-e4f1-4bb9-9e1a-d2ba43bc75b0">
+      <name>ЗавершениеСеансовПользователей</name>
+      <description>Завершение сеансов пользователей</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="5171e48a-3f23-4f82-bacc-31e9f5fb0ffd">
+      <name>РазрешениеРегламентныхЗаданий</name>
+      <description>Разрешение регламентных заданий</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="7450e3c6-57f3-4034-b53a-9a23a81cb1ec">
+      <name>РазрешениеЗапускаБазы</name>
+      <description>Разрешение запуска базы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="16df7941-bac6-4a75-b5a7-c7980bad0be8">
+      <name>ОбновлениеОсновнойКонфигурации</name>
+      <description>Обновление основной конфигурации</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="cb8709bf-c09c-46c6-8339-c25992555131">
+      <name>ОбновлениеРасширенияБазы</name>
+      <description>Обновление расширения базы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="50494c8a-2fec-419a-80c4-c8657bbd5416">
+      <name>ПредупреждениеОбОшибкахTelegram</name>
+      <description>Предупреждение об ошибках telegram</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+    <items id="a13bee53-6d13-447b-af86-764956e025a3">
+      <name>ПредупреждениеОбОшибкахПочта</name>
+      <description>Предупреждение об ошибках почта</description>
+      <code xsi:type="core:StringValue">
+        <value>000000011</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

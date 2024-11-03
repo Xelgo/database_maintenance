@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="65e06c5f-c541-4534-aeb3-2a608d586708" extendedConfigurationObject="8f2b8a8e-4cd3-45e3-89ae-1cc4bd0ff30a">
+  <producedTypes>
+    <objectType typeId="b35cf862-8ec4-4663-bc47-d38f222a6c6c" valueTypeId="39c21c4b-ca9b-4075-bd23-920b6c2f49a2"/>
+    <refType typeId="d0253059-8fc0-485f-8b41-dc7cf76c77a5" valueTypeId="6d461328-f071-4b9a-839d-df4bfa8d66a8"/>
+    <selectionType typeId="b4c3072d-943c-4bc8-896c-20ed1aba4e98" valueTypeId="5b07cca3-97a3-4d9f-acbc-7b1616c9b3b1"/>
+    <listType typeId="5bcb0670-f0e9-4795-a287-69de48c5dadc" valueTypeId="1bdb7dfe-1ed9-4d39-9017-01e179d6523b"/>
+    <managerType typeId="e7bd0a43-be35-4f05-bcc4-73b72e57f15d" valueTypeId="d11c9e21-d3f8-455f-8da1-acc1af1fd753"/>
+  </producedTypes>
+  <name>ЭлектронноеПисьмоИсходящее</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

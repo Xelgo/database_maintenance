@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c47b2c38-bdeb-49b7-8e7a-eeb4824d731e">
+  <producedTypes>
+    <managerType typeId="6f1c0e94-74c0-4a51-af54-b1c4c33e07a2" valueTypeId="f397121f-b9e5-48cb-8f41-649b50df9525"/>
+    <valueManagerType typeId="a0068834-8a2b-48e1-bcae-1a61c9f739d6" valueTypeId="5d3c1817-c56c-47a8-802f-bc2ed9abdb7a"/>
+    <valueKeyType typeId="f142e0df-c570-487a-b35d-d89b4bea639e" valueTypeId="e4891d28-3a7b-4510-bbb8-b08b7d01794d"/>
+  </producedTypes>
+  <name>ММ_УчетнаяЗаписьПочты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетная запись почты</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ММ_ФормаНастроек</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

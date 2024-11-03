@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fe34701-499e-4bf1-82db-678ae89f2084">
+  <producedTypes>
+    <objectType typeId="3a293f31-facb-42eb-a724-bac0351d6dc1" valueTypeId="c6b36e36-d463-4aee-9b7a-e5ae18de542d"/>
+    <refType typeId="49c5944c-6880-45a3-92f1-b7b17ccdb0a0" valueTypeId="c34156e7-bd4a-482d-af9d-e22533c600b6"/>
+    <selectionType typeId="14618a95-9cbc-4a01-84b8-04e5a6d7dca0" valueTypeId="2a38ce19-315a-4c66-995a-2c3fdbb98b71"/>
+    <listType typeId="b2057340-5be2-4d6f-ad16-8eca30fcbada" valueTypeId="1b967b51-b5b6-4c5f-ad0a-68a70863d6ef"/>
+    <managerType typeId="8f9ca211-31ca-4993-916c-311ebe507358" valueTypeId="0c55d8a2-a6f9-45ea-9f71-2bc63359426c"/>
+  </producedTypes>
+  <name>ММ_Кластер1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кластер 1C</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ММ_Кластер1С.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ММ_Кластер1С.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Кластер 1С</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="77dcacb9-6528-44cc-8427-57d3e0766565">
+      <name>ФайловаяБаза</name>
+      <description>Файловая база</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ММ_Кластер1С.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="f225e531-b1c4-4b74-9227-d9c5ca706bd3">
+    <name>ПутьДоКластера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь до кластера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="33636e2c-2ae3-4b1f-915e-7f1dd16d1fe4">
+    <name>ВебДоступ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Веб доступ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="008daf4f-fa30-4597-b379-0f2b4874a3b0">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c79a4e79-4e98-4d96-a561-2dc5c45fbc44">
+  <producedTypes>
+    <managerType typeId="621385d4-8963-4a53-a6ca-df1ca36b440b" valueTypeId="eb715c89-e30b-4137-84ff-9b2e2f741553"/>
+    <valueManagerType typeId="049f8b37-167b-41ee-86a7-4aff4f6f4b3e" valueTypeId="a28dab6b-ad58-4f6b-a8db-e0ce018cdcc4"/>
+    <valueKeyType typeId="39bd84b0-9364-4472-86da-483d8bc60a80" valueTypeId="5a3b951e-0b07-4954-8b4a-5ba25c5145d7"/>
+  </producedTypes>
+  <name>ММ_КоличествоМинутСтандартногоТехнологическогоПростоя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество минут стандартного технологического простоя</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>3</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ММ_ФормаНастроек</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4e3e219-f9ea-4966-aedf-51e1140efb95">
+  <producedTypes>
+    <objectType typeId="88e8da9d-9fdd-40d3-a04f-e33c6a29dadb" valueTypeId="5e4399a0-9304-46cb-8f9d-08321cbb9202"/>
+    <refType typeId="c2dbea30-593a-4834-a22e-0f424dcf8083" valueTypeId="ed288ce7-63fc-4270-8e37-7e3438bded23"/>
+    <selectionType typeId="4e8e7f98-e7bd-4906-ba95-323dbe112406" valueTypeId="2e27fe3a-ec70-4334-a8d8-1c2c89315c09"/>
+    <listType typeId="db32e3c0-9421-419f-9955-e1b53ba21d37" valueTypeId="4ce2249b-066c-492e-be3e-eb3629749b18"/>
+    <managerType typeId="a66d4292-3900-4136-9b5c-314c1b872c03" valueTypeId="bf632ef7-6a20-4f49-8670-57a89ef14af6"/>
+  </producedTypes>
+  <name>ММ_КаналыУведомлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каналы уведомлений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ММ_КаналыУведомлений.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ММ_КаналыУведомлений.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Канал уведомления</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ММ_КаналыУведомлений.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="61e7356a-141e-4316-8392-edc13dc17a7e">
+    <name>УведомлятьООбновлениях</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомлять о обновлениях</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b71f962a-aa86-4b94-b2c3-49cd9d0c6060">
+    <name>УведомлятьОПроблемахВоВремяОбновлений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомлять о проблемах во время обновлений</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e1cb413e-fafc-4825-af4c-a788f9413e8e">
+    <name>ChatId</name>
+    <synonym>
+      <key>ru</key>
+      <value>Chat id</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="29a133e2-4e87-4001-801f-2457804e1cdf">
+    <name>УведомитьПоТелеграм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомить по телеграм</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4d2702fd-f604-454c-84e1-b568023aedd3">
+    <name>УведомитьПоПочте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомить по почте</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4ac86941-cb7b-4134-a351-69095b980dc0">
+    <name>Почта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Почта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="960cecef-f9bd-4caa-9466-14e0316a830f">
+    <name>УведомитьЗаЧасДоОбновлений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомить за час до обновлений</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="84352499-955f-43fb-8680-abbf15eeebc7">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

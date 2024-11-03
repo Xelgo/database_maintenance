@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd5a99c7-04d7-420b-aad8-f022f44b41b0">
+  <producedTypes>
+    <selectionType typeId="ef7cae8c-4cad-451a-90d3-baf079f26f34" valueTypeId="bfdf8a38-d5bb-4b0c-a94c-90492a776f50"/>
+    <listType typeId="b4629400-420a-4d21-a54c-f7d495498037" valueTypeId="6b656c7d-0551-4e6d-a7f0-4e5cb7570c00"/>
+    <managerType typeId="9b738e44-0a25-4415-998e-a1cb7f31c828" valueTypeId="3326628a-c7bf-4b51-abfd-0a386a6d2b13"/>
+    <recordSetType typeId="7f764d55-5dab-46d4-80f5-107de0e73943" valueTypeId="b71dd830-68fe-4ea7-92bc-d5b3617fbc09"/>
+    <recordKeyType typeId="c9f7daba-95cf-473d-9675-189f65e08ec7" valueTypeId="fdcde501-038f-4d20-b941-1680cd7d26cd"/>
+    <recordType typeId="416558ac-73ff-41bc-bec0-fd14e3f66ea7" valueTypeId="8d0e1825-9437-4757-b6d7-512e738609ca"/>
+    <recordManagerType typeId="d487388b-0a47-45eb-8657-a65d7a72fa27" valueTypeId="ec5fe0a6-e382-41c3-a887-880858c2ad42"/>
+  </producedTypes>
+  <name>ММ_ДействияВХодеОбновления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Действия в ходе обновления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Действие в ходе обновления</value>
+  </recordPresentation>
+  <resources uuid="61b4ecac-04b7-45c2-adcc-cda3e4631f3e">
+    <name>Успешно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Успешно</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="95c02a91-e0ae-401d-90ef-db1d08015cfc">
+    <name>ТекстОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст ошибки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ff73b8bb-3a07-430a-b6fc-ee5823496ffe">
+    <name>РезультатОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат обновления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>DocumentRef.ЭлектронноеПисьмоИсходящее</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="270506fb-aaac-42b6-9376-26a998d1aafe">
+    <name>ДатаНачалаОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала операции</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="49322002-8014-4f14-a97d-94ddc90e9dfa">
+    <name>ДокументОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ обновления</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ММ_ПланированиеТехнологическихРабот</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5e55b7dc-50b4-452c-b2ec-4c7619816895">
+    <name>АвтоматическаяОперация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматическая операция</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ММ_ВидыАвтоматическихОпераций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b574da73-a475-4565-854a-506ef7e2919a">
+    <name>УИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>УИД</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

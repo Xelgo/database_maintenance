@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="aacbb7b8-7b72-479b-9ed6-559a2f0fddb9">
+  <name>МагнитМаркетПО1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>(ММ) Магнит маркет планировщик обновлений</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="67b41fe1-b848-44f0-b4ae-196b26703d6b"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="1a09457a-323f-465f-9005-736bdca216c7"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="329d5346-0dcd-47f5-afab-e8d1f0c02c0c"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="666a4315-51f6-48e4-9b43-6695ad72b84f"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="362a417d-69fb-4825-98a8-c7c8a78b4b18"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="7b750a77-1718-46b2-a598-68ca80fc7b62"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="fe5e5780-2d5c-4bdf-84d2-a3ebd302f4d5"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>ММ_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.24</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ММ_ОсновнаяРоль</defaultRoles>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.25</compatibilityMode>
+  <languages uuid="b5827031-f2ae-4d14-9187-76fb207b859c" extendedConfigurationObject="b722bace-9ec0-4680-a6af-e04e9c5e79fd">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ММ_Документы</subsystems>
+  <subsystems>Subsystem.ММ_Справочники</subsystems>
+  <styleItems>StyleItem.ПоясняющийТекст</styleItems>
+  <commonPictures>CommonPicture.ЭлектронноеПисьмоИсходящее</commonPictures>
+  <commonPictures>CommonPicture.ПиктограммыЭлементов</commonPictures>
+  <commonPictures>CommonPicture.Отчеты</commonPictures>
+  <roles>Role.ММ_ОсновнаяРоль</roles>
+  <commonModules>CommonModule.ММ_ОтправкаУведомлений</commonModules>
+  <commonModules>CommonModule.мм_ОнлайнСервис</commonModules>
+  <httpServices>HTTPService.мм_ОнлайнСервис</httpServices>
+  <definedTypes>DefinedType.Подразделение</definedTypes>
+  <definedTypes>DefinedType.ФизическоеЛицо</definedTypes>
+  <constants>Constant.ММ_ТокенТелеграмБот</constants>
+  <constants>Constant.ММ_АдресТелеграмАПИ</constants>
+  <constants>Constant.ММ_УчетнаяЗаписьПочты</constants>
+  <constants>Constant.ММ_КоличествоМинутСтандартногоТехнологическогоПростоя</constants>
+  <commonForms>CommonForm.ММ_ФормаНастроек</commonForms>
+  <catalogs>Catalog.ММ_БазаДанных</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.ММ_Расширения</catalogs>
+  <catalogs>Catalog.ММ_Кластер1С</catalogs>
+  <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
+  <catalogs>Catalog.ММ_КаналыУведомлений</catalogs>
+  <catalogs>Catalog.ММ_ШаблоныСообщений</catalogs>
+  <catalogs>Catalog.ММ_ДействияВХодеОбслуживания</catalogs>
+  <documents>Document.ММ_ПланированиеТехнологическихРабот</documents>
+  <documents>Document.ЭлектронноеПисьмоИсходящее</documents>
+  <enums>Enum.ММ_СпособыОбновления</enums>
+  <enums>Enum.ММ_ТипБазы</enums>
+  <enums>Enum.ММ_ПланируемыеВидыРабот</enums>
+  <enums>Enum.ММ_ВидыАвтоматическихОпераций</enums>
+  <informationRegisters>InformationRegister.ММ_ДействияВХодеОбновления</informationRegisters>
+</mdclass:Configuration>

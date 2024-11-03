@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="adda300a-3af5-4436-9530-93c4e1919db5">
+  <name>мм_ОнлайнСервис</name>
+  <synonym>
+    <key>ru</key>
+    <value>мм_ОнлайнСервис</value>
+  </synonym>
+  <rootURL>service_mm</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="d0a8aa25-60a9-4cea-877f-e0f7e5ee132a">
+    <name>GetBaseInfo</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get base info</value>
+    </synonym>
+    <template>/GetBaseInfo</template>
+    <methods uuid="aa19bd3c-4a5e-4471-90ea-c4fd784dd8cc">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>GetBaseInfoGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="81091afa-9df6-4ab3-9629-57984494de9c">
+    <name>ping</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ping</value>
+    </synonym>
+    <template>/ping</template>
+    <methods uuid="342d4970-b138-4bd5-89f1-f0428de82848">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>pingGET</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

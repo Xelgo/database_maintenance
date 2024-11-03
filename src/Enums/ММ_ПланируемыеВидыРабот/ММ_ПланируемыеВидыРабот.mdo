@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f0091fc-eba0-4e7b-ab2d-7cf47a6e81a1">
+  <producedTypes>
+    <refType typeId="f2503ac2-0730-4780-8028-1a87711cd1d0" valueTypeId="38e84a7b-a854-46c8-bfb9-08a36245cd5e"/>
+    <listType typeId="ebcbf2fd-04ba-4842-8c6e-f36b2997311a" valueTypeId="665f743d-b868-46f9-ab7e-de6472e80af1"/>
+    <managerType typeId="8bf62db3-52fe-4dcd-a5b4-5d286aea33e6" valueTypeId="2fb771de-2391-4d85-bc0a-78b344891014"/>
+  </producedTypes>
+  <name>ММ_ПланируемыеВидыРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планируемые виды работ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1c82b7f8-06ab-403a-b591-09bd68fb3b3e">
+    <name>Обновление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dfb7bb5c-d25c-406f-9ffd-fd392326f348">
+    <name>ТехническоеОбслуживание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Техническое обслуживание</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

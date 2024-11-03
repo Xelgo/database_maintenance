@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5161a03a-9848-4c8b-b379-d95673176c66">
+  <name>ММ_ИнформацияОИнфраструктуре</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информация о инфраструктуре</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ММ_Расширения</content>
+  <content>Catalog.ММ_Кластер1С</content>
+  <content>Catalog.ММ_БазаДанных</content>
+  <content>CommonForm.ММ_ФормаНастроек</content>
+  <content>Catalog.Пользователи</content>
+  <parentSubsystem>Subsystem.ММ_Справочники</parentSubsystem>
+</mdclass:Subsystem>
