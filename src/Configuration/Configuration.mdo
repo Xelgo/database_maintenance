@@ -30,7 +30,6 @@
   <defaultRoles>Role.ММ_ОсновнаяРоль</defaultRoles>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.25</compatibilityMode>
   <languages uuid="b5827031-f2ae-4d14-9187-76fb207b859c" extendedConfigurationObject="b722bace-9ec0-4680-a6af-e04e9c5e79fd">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
@@ -46,6 +45,7 @@
   <commonPictures>CommonPicture.ЭлектронноеПисьмоИсходящее</commonPictures>
   <commonPictures>CommonPicture.ПиктограммыЭлементов</commonPictures>
   <commonPictures>CommonPicture.Отчеты</commonPictures>
+  <commonPictures>CommonPicture.Предупреждение</commonPictures>
   <roles>Role.ММ_ОсновнаяРоль</roles>
   <commonModules>CommonModule.ММ_ОтправкаУведомлений</commonModules>
   <commonModules>CommonModule.мм_ОнлайнСервис</commonModules>
