@@ -67,6 +67,7 @@
   <catalogs>Catalog.ММ_ДействияВХодеОбслуживания</catalogs>
   <documents>Document.ММ_ПланированиеТехнологическихРабот</documents>
   <documents>Document.ЭлектронноеПисьмоИсходящее</documents>
+  <documents>Document.ММ_Новости</documents>
   <enums>Enum.ММ_СпособыОбновления</enums>
   <enums>Enum.ММ_ТипБазы</enums>
   <enums>Enum.ММ_ПланируемыеВидыРабот</enums>
