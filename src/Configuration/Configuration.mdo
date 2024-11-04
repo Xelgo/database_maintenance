@@ -63,8 +63,8 @@
   <catalogs>Catalog.ММ_Кластер1С</catalogs>
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
   <catalogs>Catalog.ММ_КаналыУведомлений</catalogs>
-  <catalogs>Catalog.ММ_ШаблоныСообщений</catalogs>
   <catalogs>Catalog.ММ_ДействияВХодеОбслуживания</catalogs>
+  <catalogs>Catalog.ММ_ШаблоныСообщений</catalogs>
   <documents>Document.ММ_ПланированиеТехнологическихРабот</documents>
   <documents>Document.ЭлектронноеПисьмоИсходящее</documents>
   <documents>Document.ММ_Новости</documents>
