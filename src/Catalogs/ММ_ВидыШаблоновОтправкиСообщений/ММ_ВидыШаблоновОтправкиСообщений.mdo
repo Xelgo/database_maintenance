@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ad9f62e-8deb-40d5-948c-54a8d216034b">
+  <producedTypes>
+    <objectType typeId="f757ce31-aad4-4575-8f76-39ceaff4b87e" valueTypeId="d7af1bcc-73d1-4847-9871-68be391b30e0"/>
+    <refType typeId="4f1c5928-40c8-4e69-a0c8-9d21e70fbff4" valueTypeId="9fff2fd6-52e4-4c19-af8b-520710ee3058"/>
+    <selectionType typeId="ba771f9b-22f1-480d-8b07-e1eb5690f13b" valueTypeId="bc5f33a0-d69c-4f3e-845a-a6334b07e2bf"/>
+    <listType typeId="08716eda-8652-4e22-b537-2769e24b910d" valueTypeId="cd4bdcae-17e1-44d4-8bd0-0ae1fb371e1d"/>
+    <managerType typeId="7bfa8620-9864-4543-86e3-6ae0ce96ce22" valueTypeId="4b048988-653f-4b7d-9535-c2354ed84628"/>
+  </producedTypes>
+  <name>ММ_ВидыШаблоновОтправкиСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды шаблонов отправки сообщений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ММ_ВидыШаблоновОтправкиСообщений.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ММ_ВидыШаблоновОтправкиСообщений.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="773e1ec4-2c10-44fa-9631-3b036ac2e611">
+      <name>ОбновлениеБазы</name>
+      <description>Обновление базы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="16edd7cd-3f21-4800-bd10-5ce2bd9156e9">
+      <name>ТехническиеРаботыНаКластере</name>
+      <description>Технические работы на кластере</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="b1929036-9b06-4c80-82c9-ae7fc68b75f8">
+      <name>ПроизвольноеСообщение</name>
+      <description>Произвольное сообщение</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="1d3e690b-49b5-4fd1-a85b-3e94a17d54c8">
+    <producedTypes>
+      <objectType typeId="d1c8f97d-91b0-4de9-9cf7-a03ed89702e4" valueTypeId="85d603f7-c126-4b7a-b83f-458400c173e8"/>
+      <rowType typeId="3bbf7c34-f209-46ee-ac3e-85a8346c5f1c" valueTypeId="bbec28d0-679d-4ddb-b446-9cc5f84730de"/>
+    </producedTypes>
+    <name>ПараметрыОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры отправки</value>
+    </synonym>
+    <attributes uuid="50da2b24-603e-4af1-819b-d624dba85852">
+      <name>ИмяПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя параметра</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="903761cc-cd32-4562-829d-908e40d0280f">
+      <name>ОписаниеПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание параметра</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <multiLine>true</multiLine>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>
