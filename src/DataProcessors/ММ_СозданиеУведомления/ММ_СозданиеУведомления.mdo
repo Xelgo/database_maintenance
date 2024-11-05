@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71412bd8-8bb5-4579-a443-78891a4698ba">
+  <producedTypes>
+    <objectType typeId="d7dbb2b0-b5cc-49c0-85a8-5898d4595a40" valueTypeId="e0751b24-2c3c-4340-b4e1-047435196196"/>
+    <managerType typeId="3d5eb6db-2d48-4362-8dce-76b140ed1cf9" valueTypeId="4cec909b-f393-44ee-a2d8-3ed7f468d0c1"/>
+  </producedTypes>
+  <name>ММ_СозданиеУведомления</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ: Создание уведомлений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ММ_СозданиеУведомления.Form.Форма</defaultForm>
+  <attributes uuid="9002fa26-964f-44ea-9952-177cd217987b">
+    <name>ШаблонСообщений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон сообщений</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ММ_ШаблоныСообщений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="134b4b91-766a-4db1-8220-c251eea1441d">
+    <name>ШаблонПолучателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон получателей</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ММ_ШаблонПолучателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ec39b2f7-e244-401c-9d60-21ef7236ebbd">
+    <name>ДатаУстаревания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата устаревания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="feb97e88-25c1-4a8c-bfa8-c61fde15d3ab">
+    <name>Тема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тема</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b8eff51d-a166-49c0-8a14-2e193f077a73">
+    <name>ТекстСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a0b29c15-d113-40eb-933d-933be4aa4927">
+    <name>ВремяНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f7291ed9-d779-4f6b-a34a-999e759864ad">
+    <name>ВремяЗавершения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время завершения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="16967ebf-e4b1-4b90-a900-d00ca81b2a3c">
+    <name>День</name>
+    <synonym>
+      <key>ru</key>
+      <value>День</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="bdd9e74b-0ed5-4578-a889-0dd34fd9e5f7">
+    <producedTypes>
+      <objectType typeId="add5e96e-56ee-402a-af1b-9957d4ebff03" valueTypeId="0fddaa50-9621-4c53-91d6-f2775598acf8"/>
+      <rowType typeId="24aa984f-0af6-4740-8066-a904e3014989" valueTypeId="092aa4b9-026d-4c80-9b32-afd1f841269b"/>
+    </producedTypes>
+    <name>КаналыУведомлений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каналы уведомлений</value>
+    </synonym>
+    <attributes uuid="b7f477ee-783a-47d1-bfb7-6c00541aa125">
+      <name>КаналУведомления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Канал уведомления</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ММ_КаналыУведомлений</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="1a12743f-4133-4418-8e8b-281975cfd628">
+    <producedTypes>
+      <objectType typeId="6827aa94-270f-4682-bc85-9b5ecb374152" valueTypeId="ec50c090-1d9b-41ac-857c-c533cee893c6"/>
+      <rowType typeId="a238b46b-73a7-4f22-a643-6ae782316af9" valueTypeId="cb601c8f-334f-4742-8c7a-1d97c3f6bdad"/>
+    </producedTypes>
+    <name>БазаДляУведомления</name>
+    <synonym>
+      <key>ru</key>
+      <value>База для уведомления</value>
+    </synonym>
+    <attributes uuid="999dd4cd-5059-4cb8-b645-a35b2481c88a">
+      <name>База1С</name>
+      <synonym>
+        <key>ru</key>
+        <value>База1 С</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ММ_БазаДанных</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="cd069b08-6340-4c02-ac8c-a0b5eb79ee01">
+    <producedTypes>
+      <objectType typeId="33c2616d-589c-4bdf-8d7a-8d2b015294e0" valueTypeId="dcd13aae-95bf-4acb-84ae-32e51deb3f34"/>
+      <rowType typeId="a5277e18-b343-4c07-80ca-891fa65f6b0f" valueTypeId="ff23e0c8-2237-4bfd-a2c4-4afd11a94a43"/>
+    </producedTypes>
+    <name>ПараметрыСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры сообщения</value>
+    </synonym>
+    <attributes uuid="9ff3d018-5167-42ca-8fcc-d9646393a8cc">
+      <name>ИмяПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя параметра</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1b4f6937-a6fe-4589-9432-dbeec9786562">
+      <name>ОписаниеПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание параметра</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <multiLine>true</multiLine>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c25bb369-effb-4b8d-b5e3-eb7341287646">
+      <name>ЗначениеПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение параметра</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="a68bae86-6107-43c9-95cc-fbc197a110f2">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b6e4633-f07b-44b5-9de4-be0a5722266d">
+  <name>ММ_Новости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Новости</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ММ_Новости</content>
+  <parentSubsystem>Subsystem.ММ_Документы</parentSubsystem>
+</mdclass:Subsystem>

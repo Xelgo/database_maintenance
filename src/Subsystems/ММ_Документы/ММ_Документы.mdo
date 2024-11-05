@@ -3,7 +3,7 @@
   <name>ММ_Документы</name>
   <synonym>
     <key>ru</key>
-    <value>Планирование обновлений</value>
+    <value>Документы</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
@@ -11,5 +11,5 @@
     <picture>StdPicture.Document</picture>
   </picture>
   <content>Document.ММ_ПланированиеТехнологическихРабот</content>
-  <content>InformationRegister.ММ_ДействияВХодеОбновления</content>
+  <subsystems>ММ_Новости</subsystems>
 </mdclass:Subsystem>

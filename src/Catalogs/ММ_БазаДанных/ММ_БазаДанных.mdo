@@ -118,6 +118,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.ММ_БазаДанных.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>Catalog.ММ_БазаДанных.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="5a8fa20c-298f-4427-b4f9-bf40c21d19f0">
     <name>ПутьДоФайлаCf</name>
     <synonym>
@@ -250,6 +251,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ca65e68c-f006-430c-a0fb-b7be30a38d7c">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

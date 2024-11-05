@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab01e333-0328-4892-a7be-59e31a074e52">
+  <producedTypes>
+    <refType typeId="11b86d6c-4670-4a15-920c-6d2b7c11dafe" valueTypeId="94857e08-8ea6-4afb-989b-43c306bdcd57"/>
+    <listType typeId="4de0a6a9-f21a-42c1-9308-8dd7160c660a" valueTypeId="312ec4a5-7bab-444d-a213-c5f457534690"/>
+    <managerType typeId="e0c82059-c9df-48d0-9085-662dcdb3d857" valueTypeId="cd6ecb34-24b1-46b1-9c4b-99b7aa8efe8b"/>
+  </producedTypes>
+  <name>ММ_ВидыШаблоновОтправкиСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды шаблонов отправки сообщений</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5da0e618-e87e-4258-8911-d7207cd6e2e0">
+    <name>ПроизвольныйТекст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольный текст</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="750e3b93-1a40-445c-a27d-1835cfbe49f7">
+    <name>ОбновлениеБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление базы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="53f88a0d-1f53-4d8a-9c74-f2de8262b250">
+    <name>НедоступностьСервера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Недоступность сервера</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

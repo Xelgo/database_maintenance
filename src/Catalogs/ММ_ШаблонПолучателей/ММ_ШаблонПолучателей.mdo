@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85cf3319-55ec-4624-ac40-43bfda6bb3b4">
+  <producedTypes>
+    <objectType typeId="0fb9bf7e-4498-4b7e-89b5-9b3b2d903d5d" valueTypeId="f571aade-f219-4644-9d36-a05ece304d9c"/>
+    <refType typeId="eef1ed18-dab3-466b-8a14-3977a441fd85" valueTypeId="606c5a96-f2b1-4a5c-94bd-82e8cf155304"/>
+    <selectionType typeId="f792b68e-d03d-4c11-9386-fb5c4d72d1c4" valueTypeId="b3299162-7f9d-4bd0-8e9c-764af517520a"/>
+    <listType typeId="a313f05a-fcb2-4729-ac0f-89b67faa39e8" valueTypeId="5081823c-001c-4715-b024-6d94a623b345"/>
+    <managerType typeId="d7031da8-4713-4ad3-8a25-813bb8b662dc" valueTypeId="c341e0de-3bfc-4c8d-b67a-f3777c9629de"/>
+  </producedTypes>
+  <name>ММ_ШаблонПолучателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблон получателей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ММ_ШаблонПолучателей.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ММ_ШаблонПолучателей.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="51322bed-c0cf-45a5-ab97-e93de9716e69">
+    <producedTypes>
+      <objectType typeId="95b21db8-d4f1-4516-b585-eb1c39535db4" valueTypeId="044fcb29-366f-4082-87d0-e415650d577f"/>
+      <rowType typeId="231bd156-f2e8-4a55-a5f9-08d118829dc0" valueTypeId="efcc000f-0b81-454b-83d0-ba734ccc6b66"/>
+    </producedTypes>
+    <name>КаналыУведомлений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каналы уведомлений</value>
+    </synonym>
+    <attributes uuid="f3a149c4-e851-4e85-988f-5de95b6ee2de">
+      <name>КаналУведомления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Канал уведомления</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ММ_КаналыУведомлений</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="01e13b38-8499-4eb5-a9d0-7995913f2300">
+    <producedTypes>
+      <objectType typeId="8c559410-5e37-4a2f-9339-abf5cdae7184" valueTypeId="e47e4ecb-3fa2-43ba-8e1f-1af7b2a430b6"/>
+      <rowType typeId="242e0c7e-0e87-4e99-b8c3-5898b264ad5e" valueTypeId="8a068e55-0c5b-4b3f-9639-6910317c4513"/>
+    </producedTypes>
+    <name>БазаДляУведомления</name>
+    <synonym>
+      <key>ru</key>
+      <value>База для уведомления</value>
+    </synonym>
+    <attributes uuid="b2cbc77b-f8a2-440d-b0a5-c35f03aef0b0">
+      <name>База1С</name>
+      <synonym>
+        <key>ru</key>
+        <value>База1 С</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ММ_БазаДанных</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

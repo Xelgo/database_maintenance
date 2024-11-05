@@ -9,6 +9,7 @@
   <extension xsi:type="mdclassExtension:ConfigurationExtension">
     <defaultRunMode>Checked</defaultRunMode>
     <usePurposes>Checked</usePurposes>
+    <managedApplicationModule>Extended</managedApplicationModule>
     <defaultLanguage>Checked</defaultLanguage>
     <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
     <defaultRoles>Extended</defaultRoles>
@@ -65,12 +66,17 @@
   <catalogs>Catalog.ММ_КаналыУведомлений</catalogs>
   <catalogs>Catalog.ММ_ШаблоныСообщений</catalogs>
   <catalogs>Catalog.ММ_ДействияВХодеОбслуживания</catalogs>
+  <catalogs>Catalog.ММ_ВидыШаблоновОтправкиСообщений</catalogs>
+  <catalogs>Catalog.ММ_ШаблонПолучателей</catalogs>
   <documents>Document.ММ_ПланированиеТехнологическихРабот</documents>
   <documents>Document.ЭлектронноеПисьмоИсходящее</documents>
   <documents>Document.ММ_Новости</documents>
+  <documents>Document.ММ_УведомлениеTelegram</documents>
   <enums>Enum.ММ_СпособыОбновления</enums>
   <enums>Enum.ММ_ТипБазы</enums>
   <enums>Enum.ММ_ПланируемыеВидыРабот</enums>
   <enums>Enum.ММ_ВидыАвтоматическихОпераций</enums>
+  <enums>Enum.ММ_ВидыШаблоновОтправкиСообщений</enums>
+  <dataProcessors>DataProcessor.ММ_СозданиеУведомления</dataProcessors>
   <informationRegisters>InformationRegister.ММ_ДействияВХодеОбновления</informationRegisters>
 </mdclass:Configuration>

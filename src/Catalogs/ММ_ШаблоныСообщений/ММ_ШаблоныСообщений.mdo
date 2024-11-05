@@ -25,7 +25,7 @@
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
+  <descriptionLength>100</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
@@ -90,13 +90,13 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="eb191f33-1e12-4e48-a4c2-f3a1ddf82c34">
-    <name>ПланируемаяРабота</name>
+    <name>ВидШаблона</name>
     <synonym>
       <key>ru</key>
-      <value>Планируемая работа</value>
+      <value>Вид шаблона</value>
     </synonym>
     <type>
-      <types>EnumRef.ММ_ПланируемыеВидыРабот</types>
+      <types>CatalogRef.ММ_ВидыШаблоновОтправкиСообщений</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -105,6 +105,66 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="4d5876b2-7f40-4de4-8a6f-69b7ed6ca6a7">
+    <name>ТекстШаблонаBitrix</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст шаблона bitrix</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="175dee73-2f87-42fe-9977-8402bf41a4f8">
+    <producedTypes>
+      <objectType typeId="93387b6a-86b5-43d0-a436-1918def310e2" valueTypeId="17e134e8-4047-4393-9ace-f6e2f2222401"/>
+      <rowType typeId="b3adc500-ddef-490e-a1bf-f6b58c202009" valueTypeId="168b2481-f038-492a-9a12-45894c4f56c3"/>
+    </producedTypes>
+    <name>ПараметрыСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры сообщения</value>
+    </synonym>
+    <attributes uuid="a1d9a328-a071-4f6a-9de7-42b1a93964e1">
+      <name>ИмяПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя параметра</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a1538086-6ba1-4155-8602-cd7f575b8b51">
+      <name>ОписаниеПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание параметра</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <multiLine>true</multiLine>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="03966a88-503b-4ea2-9e85-66c292eb6968">
     <name>ФормаЭлемента</name>
     <synonym>
