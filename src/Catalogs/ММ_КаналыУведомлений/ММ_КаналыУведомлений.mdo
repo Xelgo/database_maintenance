@@ -25,7 +25,7 @@
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
+  <descriptionLength>150</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
@@ -34,36 +34,6 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.ММ_КаналыУведомлений.Form.ФормаЭлемента</defaultObjectForm>
-  <attributes uuid="61e7356a-141e-4316-8392-edc13dc17a7e">
-    <name>УведомлятьООбновлениях</name>
-    <synonym>
-      <key>ru</key>
-      <value>Уведомлять о обновлениях</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="b71f962a-aa86-4b94-b2c3-49cd9d0c6060">
-    <name>УведомлятьОПроблемахВоВремяОбновлений</name>
-    <synonym>
-      <key>ru</key>
-      <value>Уведомлять о проблемах во время обновлений</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="e1cb413e-fafc-4825-af4c-a788f9413e8e">
     <name>ChatId</name>
     <synonym>
@@ -132,11 +102,30 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="960cecef-f9bd-4caa-9466-14e0316a830f">
-    <name>УведомитьЗаЧасДоОбновлений</name>
+  <attributes uuid="a976771e-daaa-4aac-9113-65a6baeb4c9a">
+    <name>BitrixId</name>
     <synonym>
       <key>ru</key>
-      <value>Уведомить за час до обновлений</value>
+      <value>Bitrix id</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4da31330-a138-4621-ba75-9baba29833db">
+    <name>УведомлятьBitrix</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомлять bitrix</value>
     </synonym>
     <type>
       <types>Boolean</types>
