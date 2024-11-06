@@ -108,6 +108,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="111a3db6-ceb0-4dad-8ac7-38ef37380e22">
+    <name>gi2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Gi2</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="f9a6a4c7-3225-4708-9c11-3c499ff08b61">
     <name>ФормаДокумента</name>
     <synonym>
